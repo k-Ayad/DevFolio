@@ -1,0 +1,330 @@
+*
+{
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.fw-600
+{
+    font-weight: 600;
+}
+
+.fs-nav
+{
+    font-size: 16px;
+}
+
+.bg-section
+{
+    background-color: #f5f5f5;
+}
+
+.bg-light-blue
+{
+    background-color: rgba(0, 120, 255, .50);
+}
+
+.text-light-blue
+{
+    color: #0078ff;
+}
+
+
+.w-90
+{
+    width: 90%;
+}
+
+.w-85
+{
+    width: 85%;
+}
+
+.z-10
+{
+    z-index: 10;
+}
+
+.py-large
+{
+    padding: 120px 0px;
+}
+
+.pb-header
+{
+    padding-bottom: 64px;
+}
+
+.rounded-corners
+{
+    border-radius: 1rem;
+}
+.progress
+{
+    height: 12px !important;
+}
+.bg-img-home
+{
+    background-image: url(images/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+   
+}
+
+
+.home-content h1
+{
+    font-size:  4.5rem;
+    
+
+}
+
+
+.home-content h2::after
+{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation-name: write;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes write {
+    0%{content: "im|";}
+    1%{content: "im |";}
+    2%{content: "im D|";}
+    3%{content: "im De|";}
+    4%{content: "im Dev|"}
+    5%{content: "im Deve|";}
+    6%{content: "im Devel|"}
+    7%{content: "im Develo|";}
+    8%{content: "im Develop|";}
+    10%{content: "im Develope| ";}
+    15%{content: "im Developer|";}
+    20%{content: "im Developer";}
+    25%{content: "im Developer|";}
+    30%{content: "im Developer";}
+    35%{content: "im Develope|";}
+    36%{content: "im Develop|";}
+    37%{content: "im Develo|"}
+    38%{content: "im Deve|";}
+    39%{content: "im Dev|"}
+    40%{content: "im De|";}
+    41%{content: "im D|";}
+    42%{content: "im |";}
+    43%{content: "im a|";}
+    44%{content: "im a w|";}
+    45%{content: "im a we|";}
+    46%{content: "im a web|";}
+    47%{content: "im a web D|";}
+    48%{content: "im a web De|";}
+    49%{content: "im a web Des|";}
+    50%{content: "im a web Desi|";}
+    51%{content: "im a web Desig|";}
+    52%{content: "im a web Design|";}
+    53%{content: "im a web Designe|";}
+    54%{content: "im a web Designer|";}
+    55%{content: "im a web Designer";}
+    60%{content: "im a web Designer|";}
+    65%{content: "im a web Designer";}
+    70%{content: "im a web Designer|";}
+    75%{content: "im a web Designer";}
+    80%{content: "im a web Designer|";}
+    85%{content: "im a web Designer";}
+    86%{content: "im a web Designe|";}
+    87%{content: "im a web Design|";}
+    88%{content: "im a web Desig|";}
+    89%{content: "im a web Desi|";}
+    90%{content: "im a web Des|";}
+    91%{content: "im a web De|";}
+    92%{content: "im a web D|";}
+    93%{content: "im a web |";}
+    94%{content: "im a web|";}
+    95%{content: "im a we|";}
+    96%{content: "im a w|";}
+    97%{content: "im a|";}
+    98%{content: "im |";}
+    100%{content: "im|";}
+}
+
+.about-img img 
+{
+    border-radius: 5px;
+}
+
+
+
+.about-header::after
+{
+    
+    content: '';
+    width: 100px;
+    height: 2px;
+    position: absolute;
+    top: 120%;
+    left: 0px;
+    background-color: #0078ff;
+}
+
+.about-text
+{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+
+.header ::after
+{
+    content: '';
+    width: 50px;
+    height: 5px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #0078ff;
+}
+
+
+.icon-container
+{
+    height: 100px;
+    width: 100px;
+    border: #0078ff 8px solid;
+    border-radius: 50%;
+
+    transition : background-color 1s;
+    
+
+}
+
+.icon-container i
+{
+    font-size: 40px;
+    transition : font-color 1s;
+}
+
+
+
+
+.service-item:hover .icon-container
+{
+    background-color: #0078ff;
+    border-color: #0dcaf0;
+}
+
+.service-item:hover .icon-container i
+{
+    color: white;
+}
+
+/*-----------------work--------------------*/
+.work-icon
+{
+    height: 90px;
+    width: 90px;
+    border: #fff 10px solid;
+    border-radius: 50%;
+}
+.work-icon i
+{
+    font-size: 30px;
+}
+
+
+.work-background
+{
+    background-image: url(images/post-3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*--------------------Potfolio---------------------*/
+
+.card-img
+{
+    transition : transform 1s;
+}
+
+.card-effect:hover .card-img
+{
+   transform: scale(1.3) ;
+}
+
+/*---------------------Slider section--------------------*/
+
+.slider-background
+{
+    background-image: url(images/overlay-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.carousel-indicators [data-bs-target]
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+/*---------------------Blog--------------------*/
+
+.footer-pic-size
+{
+    width: 30px;
+    height: 30px;
+}
+
+.item-footer
+{
+    background-color: rgba(0,0,0,.03);
+   color:  #4e4e4e ;
+}
+
+.badge-position
+{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+
+/*----------------------Contact--------------------------*/
+
+.btn-size
+{
+    font-size: 1.2rem;
+    border-radius: 1.5rem;
+}
+
+.contact-title::after
+{
+    content: '';
+    width:25%;
+    height: 2px;
+    position: absolute;
+    top: 90%;
+    left: 0px;
+    background-color: #0078ff;
+}
+
+
+.list ul
+{
+    list-style: none;
+    padding: 0px;
+}
+
+.bg-final
+{
+    background-color: #0062d3;
+}
